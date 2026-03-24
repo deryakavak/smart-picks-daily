@@ -10,14 +10,28 @@
         header { background: linear-gradient(135deg, #e63946, #d62828); color: white; padding: 1.5rem; text-align: center; }
         header a { color: white; text-decoration: none; font-weight: 700; font-size: 1.3rem; }
         nav { background: #1a1a1a; padding: 0.8rem 1rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
-        nav a { color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; padding: 0.3rem 0.8rem; border-radius: 20px; }
+        nav a { color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; padding: 0.3rem 0.8rem; border-radius: 20px; transition: background 0.2s; }
         nav a:hover, nav a.active { background: rgba(255,255,255,0.15); }
-        .container { max-width: 900px; margin: 0 auto; padding: 4rem 1rem; text-align: center; }
-        h1 { font-size: 2rem; margin-bottom: 1rem; }
-        p { color: #666; font-size: 1.1rem; }
-        .back { display: inline-block; margin-top: 2rem; color: #e63946; text-decoration: none; font-weight: 600; }
-        footer { text-align: center; padding: 2rem; color: #999; font-size: 0.85rem; margin-top: 4rem; }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+        .breadcrumb { font-size: 0.85rem; color: #888; margin-bottom: 1.5rem; }
+        .breadcrumb a { color: #e63946; text-decoration: none; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .subtitle { color: #666; margin-bottom: 2rem; font-size: 1.1rem; }
+        .post-list { display: flex; flex-direction: column; gap: 1.5rem; }
+        .post-item { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; transition: transform 0.2s, box-shadow 0.2s; }
+        .post-item:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+        .post-thumb { width: 280px; min-height: 180px; background-size: cover; background-position: center; flex-shrink: 0; }
+        .post-info { padding: 1.5rem; display: flex; flex-direction: column; justify-content: center; }
+        .post-info .tag { display: inline-block; background: #fef2f2; color: #e63946; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 12px; margin-bottom: 0.5rem; text-transform: uppercase; }
+        .post-info h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+        .post-info h2 a { color: #1a1a1a; text-decoration: none; }
+        .post-info h2 a:hover { color: #e63946; }
+        .post-info p { color: #666; font-size: 0.95rem; margin-bottom: 0.8rem; }
+        .post-info .meta { color: #999; font-size: 0.8rem; }
+        .post-info .read-more { color: #e63946; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+        footer { text-align: center; padding: 2rem; color: #999; font-size: 0.85rem; margin-top: 2rem; }
         footer a { color: #999; }
+        @media (max-width: 640px) { .post-item { flex-direction: column; } .post-thumb { width: 100%; height: 200px; } }
     </style>
 </head>
 <body>
@@ -31,9 +45,23 @@
         <a href="fashion.html">Fashion</a>
     </nav>
     <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> → Home Organization</div>
         <h1>🏠 Home Organization</h1>
-        <p>We're working on curating the best picks for this category.<br>Check back soon — new articles are added weekly!</p>
-        <a href="../index.html" class="back">← Back to Home</a>
+        <p class="subtitle">Declutter and organize your space with these brilliant finds.</p>
+
+        <div class="post-list">
+            <div class="post-item">
+                <div class="post-thumb" style="background-image: url('../images/home-organization-finds.jpg');"></div>
+                <div class="post-info">
+                    <span class="tag">Home Organization</span>
+                    <h2><a href="../posts/home-organization-finds.html">8 Brilliant Home Organization Finds Under $30</a></h2>
+                    <p>Tackle clutter with these highly-rated home organization finds under $30. Perfect for every room in the house.</p>
+                    <span class="meta">March 24, 2026 · 5 min read · 8 products</span>
+                    <a href="../posts/home-organization-finds.html" class="read-more">Read Article →</a>
+                </div>
+            </div>
+        </div>
+
     </div>
     <footer>
         <p>&copy; 2026 Smart Picks Daily · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../about.html">About</a></p>
