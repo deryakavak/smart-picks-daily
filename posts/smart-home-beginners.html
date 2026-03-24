@@ -35,9 +35,7 @@
         .disclosure { background: #f5f5f5; padding: 1rem; border-radius: 8px; margin-top: 2rem; font-size: 0.85rem; color: #777; }
         footer { text-align: center; padding: 2rem; color: #999; font-size: 0.85rem; margin-top: 2rem; }
         footer a { color: #999; }
-        .product-img { height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1.2rem; }
-        .product-img .product-emoji { font-size: 3.5rem; margin-bottom: 0.5rem; }
-        .product-img .product-name { font-size: 0.85rem; font-weight: 600; color: rgba(255,255,255,0.95); text-align: center; padding: 0 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+        .product-img { width: 100%; height: 220px; object-fit: cover; border-radius: 12px 12px 0 0; margin: -1.5rem -1.5rem 1rem -1.5rem; width: calc(100% + 3rem); }
     </style>
 </head>
 <body>
@@ -63,10 +61,7 @@
         <h3 class="section-title">🔊 Smart Speakers</h3>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
-                <div class="product-emoji">🔊</div>
-                <div class="product-name">Amazon Echo Dot (5th Gen)</div>
-            </div>
+            <img src="../images/echo-dot.jpg" alt="Amazon Echo Dot (5th Gen)" class="product-img">
             <h2>1. Amazon Echo Dot (5th Gen)</h2>
             <div class="price">~$27.99</div>
             <div class="rating">⭐⭐⭐⭐⭐ (200,000+ ratings)</div>
@@ -78,10 +73,7 @@
         <h3 class="section-title">🔌 Smart Plugs</h3>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #f7971e, #ffd200);">
-                <div class="product-emoji">🔌</div>
-                <div class="product-name">Kasa Smart Plug Mini HS103</div>
-            </div>
+            <img src="../images/smart-plug.jpg" alt="Kasa Smart Plug Mini" class="product-img">
             <h2>2. Kasa Smart Plug Mini (HS103)</h2>
             <div class="price">~$14.99</div>
             <div class="rating">⭐⭐⭐⭐⭐ (75,000+ ratings)</div>
@@ -91,10 +83,7 @@
         </div>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
-                <div class="product-emoji">🔌</div>
-                <div class="product-name">Wyze Plug 2-Pack</div>
-            </div>
+            <img src="../images/smart-plug.jpg" alt="Wyze Smart Plug" class="product-img">
             <h2>3. Wyze Plug (2-Pack)</h2>
             <div class="price">~$15.98</div>
             <div class="rating">⭐⭐⭐⭐⭐ (18,000+ ratings)</div>
@@ -106,10 +95,7 @@
         <h3 class="section-title">💡 Smart Light Bulbs</h3>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #fd746c, #ff9068);">
-                <div class="product-emoji">💡</div>
-                <div class="product-name">Amazon Basics Smart Color Bulb</div>
-            </div>
+            <img src="../images/smart-bulb.jpg" alt="Amazon Basics Smart Color Bulb" class="product-img">
             <h2>4. Amazon Basics Smart Color Bulb</h2>
             <div class="price">~$12.99</div>
             <div class="rating">⭐⭐⭐⭐⭐ (15,000+ ratings)</div>
@@ -119,10 +105,7 @@
         </div>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #4776e6, #8e54e9);">
-                <div class="product-emoji">🌈</div>
-                <div class="product-name">WiZ Color A19 LED Smart Bulb 2-Pack</div>
-            </div>
+            <img src="../images/smart-bulb.jpg" alt="WiZ Color A19 LED Smart Bulb" class="product-img">
             <h2>5. WiZ Color A19 LED Smart Bulb (2-Pack)</h2>
             <div class="price">~$21.98</div>
             <div class="rating">⭐⭐⭐⭐⭐ (12,000+ ratings)</div>
@@ -134,10 +117,7 @@
         <h3 class="section-title">📷 Budget Security</h3>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #373b44, #4286f4);">
-                <div class="product-emoji">📷</div>
-                <div class="product-name">Wyze Cam v4</div>
-            </div>
+            <img src="../images/security-cam.jpg" alt="Wyze Cam v4" class="product-img">
             <h2>6. Wyze Cam v4</h2>
             <div class="price">~$35.98</div>
             <div class="rating">⭐⭐⭐⭐⭐ (5,000+ ratings)</div>
@@ -147,10 +127,7 @@
         </div>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #2c3e50, #3498db);">
-                <div class="product-emoji">🏠</div>
-                <div class="product-name">Blink Mini 2 Indoor Camera</div>
-            </div>
+            <img src="../images/security-cam.jpg" alt="Blink Mini 2 Indoor Camera" class="product-img">
             <h2>7. Blink Mini 2</h2>
             <div class="price">~$29.99</div>
             <div class="rating">⭐⭐⭐⭐⭐ (50,000+ ratings)</div>
@@ -162,10 +139,7 @@
         <h3 class="section-title">🌡️ Bonus Pick</h3>
 
         <div class="product">
-            <div class="product-img" style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);">
-                <div class="product-emoji">⚡</div>
-                <div class="product-name">TP-Link Tapo Smart Plug Mini 4-Pack</div>
-            </div>
+            <img src="../images/smart-plug.jpg" alt="TP-Link Tapo Smart Plug Mini" class="product-img">
             <h2>8. TP-Link Tapo Smart Plug Mini (4-Pack)</h2>
             <div class="price">~$24.99</div>
             <div class="rating">⭐⭐⭐⭐⭐ (20,000+ ratings)</div>
