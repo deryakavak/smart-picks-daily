@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness & Wellness — Smart Picks Daily</title>
+    <meta name="description" content="Best kitchen gadgets, cookware, and home essentials. Honest reviews and top-rated product recommendations.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; line-height: 1.6; background: #fafafa; }
+        header { background: linear-gradient(135deg, #e63946, #d62828); color: white; padding: 1.5rem; text-align: center; }
+        header a { color: white; text-decoration: none; font-weight: 700; font-size: 1.3rem; }
+        nav { background: #1a1a1a; padding: 0.8rem 1rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        nav a { color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; padding: 0.3rem 0.8rem; border-radius: 20px; transition: background 0.2s; }
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.15); }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+        .breadcrumb { font-size: 0.85rem; color: #888; margin-bottom: 1.5rem; }
+        .breadcrumb a { color: #e63946; text-decoration: none; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .subtitle { color: #666; margin-bottom: 2rem; font-size: 1.1rem; }
+        .post-list { display: flex; flex-direction: column; gap: 1.5rem; }
+        .post-item { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; transition: transform 0.2s, box-shadow 0.2s; }
+        .post-item:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+        .post-thumb { width: 280px; min-height: 180px; background-size: cover; background-position: center; flex-shrink: 0; }
+        .post-info { padding: 1.5rem; display: flex; flex-direction: column; justify-content: center; }
+        .post-info .tag { display: inline-block; background: #fef2f2; color: #e63946; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 12px; margin-bottom: 0.5rem; text-transform: uppercase; }
+        .post-info h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+        .post-info h2 a { color: #1a1a1a; text-decoration: none; }
+        .post-info h2 a:hover { color: #e63946; }
+        .post-info p { color: #666; font-size: 0.95rem; margin-bottom: 0.8rem; }
+        .post-info .meta { color: #999; font-size: 0.8rem; }
+        .post-info .read-more { color: #e63946; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+        footer { text-align: center; padding: 2rem; color: #999; font-size: 0.85rem; margin-top: 2rem; }
+        footer a { color: #999; }
+        @media (max-width: 640px) { .post-item { flex-direction: column; } .post-thumb { width: 100%; height: 200px; } }
+    </style>
+</head>
+<body>
+    <header><a href="../index.html">🎯 Smart Picks Daily</a></header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="kitchen.html">Kitchen</a>
+        <a href="tech.html">Tech</a>
+        <a href="fitness.html" class="active">Fitness</a>
+        <a href="organization.html">Organization</a>
+        <a href="fashion.html">Fashion</a>
+    </nav>
+    <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> → Fitness & Wellness</div>
+        <h1>🍳 Fitness & Wellness</h1>
+        <p class="subtitle">Workout gear, fitness equipment, and wellness products for every budget. Updated weekly.</p>
+
+        <div class="post-list">
+            <div class="post-item">
+                <div class="post-thumb" style="background-image: url('../images/dumbbells.jpg');"></div>
+                <div class="post-info">
+                    <span class="tag">Home Gym</span>
+                    <h2><a href="../posts/home-gym-under-50.html">10 Home Gym Under $25 That Are Actually Worth It (2026)</a></h2>
+                    <p>Build a complete home gym for less than 3 months of gym membership. All under $50, highly rated, and space-friendly.</p>
+                    <span class="meta">March 23, 2026 · 5 min read · 8 products</span>
+                    <a href="../posts/home-gym-under-50.html" class="read-more">Read Article →</a>
+                </div>
+            </div>
+        </div>
+
+        <p style="text-align: center; color: #999; margin-top: 2rem; font-style: italic;">More fitness articles coming soon — check back weekly!</p>
+    </div>
+    <footer>
+        <p>&copy; 2026 Smart Picks Daily · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../about.html">About</a></p>
+    </footer>
+</body>
+</html>
