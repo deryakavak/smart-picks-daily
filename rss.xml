@@ -1,0 +1,122 @@
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Smart Picks Daily</title>
+        <link>https://deryakavak.github.io/smart-picks-daily/</link>
+        <atom:link href="https://deryakavak.github.io/smart-picks-daily/rss.xml" rel="self" type="application/rss+xml" />
+        <description>Curated product recommendations across home, kitchen, tech, fitness and more. Find the best deals and top-rated items.</description>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 07 Apr 2026 20:00:00 GMT</lastBuildDate>
+
+        <item>
+            <title>Affordable Home Fitness Essentials for a Full Body Workout</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/affordable-home-fitness-essentials.html</link>
+            <description>Transform your home into a gym with these budget-friendly fitness essentials. Perfect for full-body workouts without expensive equipment.</description>
+            <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/affordable-home-fitness-essentials.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/fitness-essentials.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>8 Best Self-Care Gifts Under $30 for 2026</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/best-self-care-gifts-under-30.html</link>
+            <description>Discover thoughtful and budget-friendly self-care gifts that promote relaxation and well-being. Perfect for anyone needing a little pampering.</description>
+            <pubDate>Wed, 01 Apr 2026 13:49:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/best-self-care-gifts-under-30.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/self-care-gifts.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>5 Smart Desk Organization Essentials to Boost Your Productivity</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/smart-desk-organization.html</link>
+            <description>Upgrade your home office with these top-rated desk organization tools. Perfect for remote work and keeping your workspace clutter-free.</description>
+            <pubDate>Tue, 31 Mar 2026 13:45:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/smart-desk-organization.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/desk-organization.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>Top 5 Yoga Essentials for Home Workouts Under $30</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/top-5-yoga-essentials.html</link>
+            <description>Setting up a home yoga space doesn't require expensive equipment. With just a few high-quality, budget-friendly essentials, you can transform any corner into a peaceful sanctuary.</description>
+            <pubDate>Mon, 30 Mar 2026 19:23:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/top-5-yoga-essentials.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/yoga-mat.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>Home Barista Coffee Essentials for the Perfect Brew</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/home-barista-coffee-essentials.html</link>
+            <description>Everything you need to brew delicious coffee at home, from pour-over kits to grinders. Elevate your morning routine with these barista-approved tools.</description>
+            <pubDate>Sun, 29 Mar 2026 11:01:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/home-barista-coffee-essentials.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/coffee-essentials.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>10 Essential Organization Products for a Clutter-Free Life</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/10-essential-organization-products.html</link>
+            <description>From drawer dividers to smart storage bins, these organization products will help you declutter every room in your home and maintain a tidy space.</description>
+            <pubDate>Fri, 28 Mar 2026 10:00:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/10-essential-organization-products.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/organization-products.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>8 Cool Tech Gadgets Under $50 That Are Actually Worth It</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/tech-gadgets-under-50.html</link>
+            <description>Discover affordable tech gadgets that offer incredible value and enhance your daily life. Smart home, portable tech, and more.</description>
+            <pubDate>Fri, 27 Mar 2026 11:01:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/tech-gadgets-under-50.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/tech-gadgets.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>10 Must-Have Accessories to Elevate Your Style</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/10-must-have-accessories.html</link>
+            <description>Upgrade your wardrobe with these versatile and affordable accessories. From statement jewelry to everyday bags, find your next favorite piece.</description>
+            <pubDate>Thu, 26 Mar 2026 10:00:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/10-must-have-accessories.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/fashion-accessories.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>Thoughtful Gift Ideas Under $50 for Every Occasion</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/gift-ideas-under-50.html</link>
+            <description>Find the perfect present without breaking the bank. Our curated list of gifts under $50 includes unique and highly-rated options for everyone on your list.</description>
+            <pubDate>Wed, 25 Mar 2026 11:00:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/gift-ideas-under-50.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/gift-ideas.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>Home Gym Under $50: Build Your Workout Space on a Budget</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/home-gym-under-50.html</link>
+            <description>Get fit at home without spending a fortune. Discover essential and affordable home gym equipment that won't break the bank.</description>
+            <pubDate>Mon, 23 Mar 2026 17:09:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/home-gym-under-50.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/home-gym.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>Smart Home for Beginners: Essential Devices Under $100</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/smart-home-beginners.html</link>
+            <description>Start building your smart home with these easy-to-use and affordable devices. Control your lights, security, and more with simple voice commands.</description>
+            <pubDate>Mon, 23 Mar 2026 17:08:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/smart-home-beginners.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/smart-home.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+        <item>
+            <title>Kitchen Gadgets Under $25 That Will Change Your Cooking Life</title>
+            <link>https://deryakavak.github.io/smart-picks-daily/posts/kitchen-gadgets-under-25.html</link>
+            <description>Upgrade your kitchen with these clever and affordable gadgets. From time-savers to innovative tools, discover must-have items for every home chef.</description>
+            <pubDate>Mon, 23 Mar 2026 17:08:00 GMT</pubDate>
+            <guid>https://deryakavak.github.io/smart-picks-daily/posts/kitchen-gadgets-under-25.html</guid>
+            <enclosure url="https://deryakavak.github.io/smart-picks-daily/images/kitchen-gadgets.jpg" type="image/jpeg" length="100000"/>
+        </item>
+
+    </channel>
+    </rss>
+    
