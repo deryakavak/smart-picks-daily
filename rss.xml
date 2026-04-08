@@ -6,7 +6,19 @@
     <atom:link href="https://deryakavak.github.io/smart-picks-daily/rss.xml" rel="self" type="application/rss+xml" />
     <description>Curated product recommendations across home, kitchen, tech, fitness and more. Find the best deals and top-rated items.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 20:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 20:46:00 GMT</lastBuildDate>
+    <item>
+        <g:id>mothers-day-gifts-under-35</g:id>
+        <title>8 Thoughtful Mother's Day Gifts Under $35 on Amazon</title>
+        <link>https://deryakavak.github.io/smart-picks-daily/posts/mothers-day-gifts-under-35.html</link>
+        <g:image_link>https://deryakavak.github.io/smart-picks-daily/images/mothers-day-gifts-under-35.jpg</g:image_link>
+        <description>Need a meaningful Mother's Day gift without overspending? These eight Amazon finds under $35 are practical, cozy, and gift-worthy.</description>
+        <g:price>34.99 USD</g:price>
+        <g:google_product_category>Gifts</g:google_product_category>
+        <g:condition>new</g:condition>
+        <pubDate>Wed, 08 Apr 2026 20:46:00 GMT</pubDate>
+        <guid>https://deryakavak.github.io/smart-picks-daily/posts/mothers-day-gifts-under-35.html</guid>
+    </item>
 
     <item>
         <g:id>affordable-home-fitness-essentials</g:id>
